@@ -12,7 +12,6 @@
 		EBDC47E5222D8756006DA015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDC47E3222D8756006DA015 /* Main.storyboard */; };
 		EBDC47E7222D8756006DA015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDC47E6222D8756006DA015 /* Assets.xcassets */; };
 		EBDC47EA222D8756006DA015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDC47E8222D8756006DA015 /* LaunchScreen.storyboard */; };
-		EBDC47F2222DA8B5006DA015 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC47F1222DA8B5006DA015 /* Item.swift */; };
 		EBDC47F5222E26CB006DA015 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBDC47F3222E26CB006DA015 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		EBDC47E6222D8756006DA015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBDC47E9222D8756006DA015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBDC47EB222D8756006DA015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBDC47F1222DA8B5006DA015 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EBDC47F4222E26CB006DA015 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +77,6 @@
 		EBDC47F7222E26DF006DA015 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				EBDC47F1222DA8B5006DA015 /* Item.swift */,
 				EBDC47F3222E26CB006DA015 /* DataModel.xcdatamodeld */,
 			);
 			path = "Data Model";
@@ -175,7 +172,6 @@
 			files = (
 				EBDC47E2222D8756006DA015 /* TodoListViewController.swift in Sources */,
 				EBDC47F5222E26CB006DA015 /* DataModel.xcdatamodeld in Sources */,
-				EBDC47F2222DA8B5006DA015 /* Item.swift in Sources */,
 				EBDC47E0222D8756006DA015 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +319,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				DEVELOPMENT_TEAM = Y923NK49VN;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +337,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				DEVELOPMENT_TEAM = Y923NK49VN;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
