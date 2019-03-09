@@ -64,6 +64,7 @@ class CategoryViewController: SwipeTableViewController {
         let category = categoryArray?[indexPath.row]
         cell.textLabel?.text = category?.categoryName ?? "No category available"
         cell.backgroundColor = UIColor(hexString: category!.categoryCellColor)
+        cell.textLabel?.textColor = ContrastColorOf(UIColor(hexString: category!.categoryCellColor)!, returnFlat: true)
         return cell
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
