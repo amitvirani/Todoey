@@ -10,7 +10,8 @@ import Foundation
 import RealmSwift
 
 class Category : Object {
-  @objc  dynamic var categoryName : String = ""
+    @objc  dynamic var categoryName : String = ""
+    @objc dynamic var categoryCellColor : String = ""
     
     // forward relationship one to many
     let items = List<Item>()
